@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="match_parent">
+
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lstDanhSachMatHangMua"
+        ></ListView>
+
+    <Button
+        android:layout_margin="6dp"
+        android:id="@+id/btnXacNhanMuaHang2"
+        android:layout_width="match_parent"
+        android:background="@drawable/retange_button"
+        android:textColor="#ffff"
+        android:layout_height="wrap_content"
+        android:text="Xác nhận đặt hàng" />
+
+</LinearLayout>
