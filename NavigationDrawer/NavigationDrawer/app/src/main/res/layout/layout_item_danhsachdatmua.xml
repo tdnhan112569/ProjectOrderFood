@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="match_parent">
+    <TextView
+       android:layout_marginLeft="2dp"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/txtTenMatHang"
+        android:textColor="#000"
+        android:text="Bánh mì"
+        android:textSize="20dp"
+        android:layout_marginRight="3dp"
+        />
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/txtSoLuong"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="3dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:text="Số lượng"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/btnSuaThongTinDatHang"
+        android:layout_marginLeft="2dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_edit"
+        android:textColor="#000"
+        />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_marginLeft="2dp"
+        android:background="@drawable/ic_delete"
+        android:textColor="#000"
+        android:id="@+id/btnXoaThongTinDatHang"
+        android:layout_height="50dp"
+        />
+
+</LinearLayout>
